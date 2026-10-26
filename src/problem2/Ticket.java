@@ -1,6 +1,6 @@
 package problem2;
 
-class Ticket implements ITicket {
+public class Ticket implements ITicket {
     private int id;
     private String name;
     private Category category;

@@ -2,10 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f036c130-cf85-41cb-afbf-852f63f8463f" name="Changes" comment="Exercise 1">
-      <change afterPath="$PROJECT_DIR$/src/problem2/Help.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problem2/s.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problem2/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problem2/CategoryNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problem2/EmployeeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problem2/HelpDesk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problem2/IHelpDesk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problem2/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exercise1/Mappable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exercise1/Mappable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/problem2/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problem2/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/problem2/Help.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/problem2/IEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problem2/IEmployee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/problem2/ITicket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problem2/ITicket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/problem2/Ticket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problem2/Ticket.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +23,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -28,9 +36,9 @@
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="3LEycOYUX3oCCuQ7OZpNbhc0De9" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -53,7 +61,7 @@
     "node.js.selected.package.jshint": "",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "C:/Users/Student/IdeaProjects/lab7/src/Main.java",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -86,5 +94,9 @@
     <MESSAGE value="init" />
     <MESSAGE value="Exercise 1" />
     <option name="LAST_COMMIT_MESSAGE" value="Exercise 1" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

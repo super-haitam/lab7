@@ -1,6 +1,6 @@
 package problem2;
 
-interface ITicket {
+public interface ITicket {
     public void setId(int id);
 
     public int getId();

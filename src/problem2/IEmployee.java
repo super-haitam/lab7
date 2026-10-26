@@ -2,7 +2,7 @@ package problem2;
 
 import java.util.List;
 
-interface IEmployee {
+public interface IEmployee {
     public void setFullName(String fullName);
 
     public String getFullName();
@@ -15,3 +15,4 @@ interface IEmployee {
 
     public List<Category> getAssignedCategories();
 }
+

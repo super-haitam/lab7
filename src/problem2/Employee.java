@@ -2,7 +2,7 @@ package problem2;
 
 import java.util.List;
 
-class Employee implements IEmployee {
+public class Employee implements IEmployee {
     private String fullName;
     private int pointLevel;
     private List<Category> assignedCategories;
