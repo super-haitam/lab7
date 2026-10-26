@@ -2,7 +2,7 @@ package Exercise1;
 
 
 public interface Mappable {
-    String JSON_PROPERTY = "\"properties\": ";
+    String JSON_PROPERTY = "";
 
     enum Geometry {
         LINE, POINT, POLYGON
