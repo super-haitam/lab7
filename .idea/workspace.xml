@@ -1,19 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f036c130-cf85-41cb-afbf-852f63f8463f" name="Changes" comment="Exercise 1">
-      <change afterPath="$PROJECT_DIR$/src/problem2/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problem2/CategoryNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problem2/EmployeeNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problem2/HelpDesk.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problem2/IHelpDesk.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problem2/Main.java" afterDir="false" />
+    <list default="true" id="f036c130-cf85-41cb-afbf-852f63f8463f" name="Changes" comment="problem2">
+      <change afterPath="$PROJECT_DIR$/src/problem3/ISaveable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problem3/Monster.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problem3/Player.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/problem2/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problem2/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/problem2/Help.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/problem2/IEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problem2/IEmployee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/problem2/ITicket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problem2/ITicket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/problem2/Ticket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problem2/Ticket.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +25,18 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="SET_USER_NAME_GLOBALLY" value="false" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;super-haitam&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/super-haitam/lab7.git&quot;,
+    &quot;accountId&quot;: &quot;cfd7e427-4484-49f8-9a6f-84ac61bae807&quot;
+  }
+}</component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -47,23 +51,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.jshint": "true",
-    "node.js.selected.package.jshint": "",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/Student/IdeaProjects/lab7/src/Main.java",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Student/IdeaProjects/lab7/src/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Student\IdeaProjects\lab7\src\problem2" />
@@ -90,10 +94,22 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
     <MESSAGE value="Exercise 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exercise 1" />
+    <MESSAGE value="problem2" />
+    <option name="LAST_COMMIT_MESSAGE" value="problem2" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
