@@ -14,7 +14,7 @@ public abstract class ListItem {
     abstract void setNext(ListItem rl);
     abstract ListItem previous();
     abstract void setPrevious(ListItem ll);
-    abstract void compareTo(ListItem li);
+    abstract int compareTo(ListItem li);
 
     public Object getValue() {
         return value;

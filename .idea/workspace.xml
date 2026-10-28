@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f036c130-cf85-41cb-afbf-852f63f8463f" name="Changes" comment="problem2">
-      <change afterPath="$PROJECT_DIR$/src/problem3/ISaveable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problem3/Monster.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problem3/Player.java" afterDir="false" />
+    <list default="true" id="f036c130-cf85-41cb-afbf-852f63f8463f" name="Changes" comment="problem4 (v1)">
+      <change afterPath="$PROJECT_DIR$/src/problem4/SearchTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/problem4/ListItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problem4/ListItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/problem4/MyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problem4/MyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/problem4/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problem4/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/problem4/NodeList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problem4/NodeList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +111,9 @@
     <MESSAGE value="init" />
     <MESSAGE value="Exercise 1" />
     <MESSAGE value="problem2" />
-    <option name="LAST_COMMIT_MESSAGE" value="problem2" />
+    <MESSAGE value="problem3" />
+    <MESSAGE value="problem4 (v1)" />
+    <option name="LAST_COMMIT_MESSAGE" value="problem4 (v1)" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
