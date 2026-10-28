@@ -11,8 +11,8 @@ public class Node extends ListItem {
     }
 
     @Override
-    void setNext(ListItem rl) {
-        this.rightLink = rl;
+    ListItem setNext(ListItem rl) {
+        return this.rightLink = rl;
     }
 
     @Override
@@ -21,8 +21,8 @@ public class Node extends ListItem {
     }
 
     @Override
-    void setPrevious(ListItem ll) {
-        this.leftLink = ll;
+    ListItem setPrevious(ListItem ll) {
+        return this.leftLink = ll;
     }
 
     @Override
@@ -32,6 +32,6 @@ public class Node extends ListItem {
             return currentVal.compareTo(li.getValue());
         }
 
-        return 0;
+        return -1;
     }
 }

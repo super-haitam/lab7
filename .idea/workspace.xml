@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f036c130-cf85-41cb-afbf-852f63f8463f" name="Changes" comment="problem4 (v1)">
-      <change afterPath="$PROJECT_DIR$/src/problem4/SearchTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/problem4/ListItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problem4/ListItem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/problem4/MyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problem4/MyLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/problem4/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problem4/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/problem4/NodeList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problem4/NodeList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/problem4/SearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problem4/SearchTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,12 +32,12 @@
     &quot;assignee&quot;: &quot;super-haitam&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/super-haitam/lab7.git&quot;,
-    &quot;accountId&quot;: &quot;cfd7e427-4484-49f8-9a6f-84ac61bae807&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/super-haitam/lab7.git",
+    "accountId": "2f37e3fc-05fc-4478-83be-bd589657a605"
   }
-}</component>
+}]]></component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>

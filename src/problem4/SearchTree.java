@@ -52,7 +52,6 @@ public class SearchTree implements NodeList {
         while (curr != null) {
             if (curr.compareTo(li) == 0) {
                 performRemoval(curr, parent);
-
                 return true;
             }
 
@@ -64,7 +63,7 @@ public class SearchTree implements NodeList {
             }
         }
 
-        return true;
+        return false;
     }
 
     private void performRemoval(ListItem li, ListItem p) {
@@ -79,6 +78,8 @@ public class SearchTree implements NodeList {
                 prev = curr;
                 curr = curr.previous();
             }
+
+            performRemoval(curr, prev);
 
             prev.setPrevious(null);
 
