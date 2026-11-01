@@ -72,6 +72,7 @@ public class SearchTree implements NodeList {
 
         // 2 Children
         if (left != null && right != null) {
+            // Find leftmost node in the right subtree of li
             ListItem prev = li;
             ListItem curr = right;
             while (curr.previous() != null) {
@@ -80,8 +81,6 @@ public class SearchTree implements NodeList {
             }
 
             performRemoval(curr, prev);
-
-            prev.setPrevious(null);
 
             li.setValue(curr.getValue());
 

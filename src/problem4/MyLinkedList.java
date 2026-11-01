@@ -24,12 +24,6 @@ public class MyLinkedList implements NodeList {
             curr = curr.next();
         }
 
-        if (curr.next() == null) {
-            curr.setNext(li);
-            li.setPrevious(curr);
-            return true;
-        }
-
         if (li.compareTo(curr) == 0) {
             return false;
         }
@@ -42,6 +36,12 @@ public class MyLinkedList implements NodeList {
             li.setPrevious(prev);
             li.setNext(curr);
             curr.setPrevious(li);
+            return true;
+        }
+
+        if (curr.next() == null) {
+            curr.setNext(li);
+            li.setPrevious(curr);
         }
 
         return true;
@@ -49,9 +49,11 @@ public class MyLinkedList implements NodeList {
 
     @Override
     public boolean removeItem(ListItem li) {
+        if (this.root == null) return false;
+
         if (this.root.compareTo(li) == 0) {
             this.root = this.root.next();
-            this.root.setPrevious(null);
+            if (this.root != null) this.root.setPrevious(null);
             return true;
         }
 
@@ -73,7 +75,7 @@ public class MyLinkedList implements NodeList {
     @Override
     public void traverse(ListItem r) {
         if (r == null) {
-            System.out.println("The list is empty.");
+            System.out.println("The list is empty");
             return;
         }
 
